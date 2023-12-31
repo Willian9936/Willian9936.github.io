@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sora", sans-serif;
+    box-sizing: border-box;
+}
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+.cards {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.cardCont .card {
+    width: 450px;
+    height: 450px;
+    background: #FFFFFF;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 0 0 10px 2px #CCC;
+    border-radius: 20px;
+}
+.cardCont .imgCont {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.cardCont .imgCont img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.card .one {
+    margin-top: 15px;
+    background: #883ae158;
+    display: flex;
+    width: min-content;
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.card h1{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #20293A;
+}
+.card .two {
+    font-size: 14px;
+    color: #6C727F;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.card hr{
+    margin-top: 20px;
+    border: 1px solid rgba(247, 0, 255, .3);
+}
+
+.card .three {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #6C727F;
+}
